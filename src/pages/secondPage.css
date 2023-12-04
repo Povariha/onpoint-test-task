@@ -1,0 +1,107 @@
+.second-main {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/secondPagePics/bg.png");
+  background-size: cover;
+}
+
+.second-page-block {
+  position: relative;
+  align-items: center;
+  text-align: left;
+}
+
+.second-page-block :first-child {
+  display: block;
+  text-align: left;
+}
+
+#smallText {
+  font-family: "DIN Pro Regular";
+  font-size: 0.5rem;
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix(5.07288435581728, 0, 0, 5.03087612481503, 0, 0);
+  -webkit-transform: matrix(5.07288435581728, 0, 0, 5.03087612481503, 0, 0);
+  -ms-transform: matrix(5.07288435581728, 0, 0, 5.03087612481503, 0, 0);
+  position: absolute;
+  left: 141px;
+  top: 158px;
+  z-index: 30;
+}
+
+.body_txt {
+  border-radius: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 1550px;
+  height: 890px;
+}
+
+#bold2 {
+  display: inline;
+  font-family: "DIN Pro Bold";
+}
+
+.text1 {
+  font-family: "DIN Pro Regular";
+}
+
+.second-page-text-block {
+  display: flex;
+  z-index: 28;
+}
+
+.text-wrapper {
+  border-radius: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 33;
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  width: 775px;
+  height: 445px;
+  top: 225px;
+  left: 120px;
+}
+
+.second-page-text {
+  font-size: 2.2rem;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  z-index: 33;
+  width: 713px;
+  height: 383px;
+}
+
+.second-page-text::-webkit-scrollbar {
+  margin-right: 200px;
+}
+
+.text-scroll {
+  position: relative;
+  height: 250px;
+  width: 1px;
+  top: 25px;
+}
+
+.text-scroll :last-child {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  height: 445px;
+  width: 5px;
+  border-radius: 20px;
+  left: 77px;
+  top: 200px;
+  z-index: 32;
+}
+
+.text-scroll :first-child {
+  position: absolute;
+  left: 69px;
+  top: 200px;
+  z-index: 33;
+}

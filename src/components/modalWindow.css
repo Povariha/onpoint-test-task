@@ -1,0 +1,32 @@
+.total-window {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(22, 39, 62, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.4s;
+  z-index: 65;
+}
+
+.total-window.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.total-content {
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 140px;
+  top: 123px;
+  width: 822px;
+  height: 573px;
+  z-index: 66;
+  opacity: 1;
+}

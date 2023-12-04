@@ -1,0 +1,117 @@
+.p1p1 {
+  content: url("../img/firstPagePics/pic1.png");
+  position: absolute;
+  left: 917px;
+  top: 30px;
+  z-index: 14;
+}
+
+.p1p2 {
+  content: url("../img/firstPagePics/pic2.png");
+  position: absolute;
+  left: 744px;
+  top: 61px;
+  z-index: 15;
+  animation: p1p2 15s infinite linear;
+}
+
+@keyframes p1p2 {
+  from {
+    transform: rotate(180deg) translateX(65px) rotate(180deg);
+  }
+  to {
+    transform: rotate(540deg) translateX(65px) rotate(540deg);
+  }
+}
+
+.p1p3 {
+  content: url("../img/firstPagePics/pic3.png");
+  position: absolute;
+  left: -88px;
+  top: 72px;
+  z-index: 16;
+}
+
+.p1p4 {
+  content: url("../img/firstPagePics/pic4.png");
+  position: absolute;
+  left: 432px;
+  top: 155px;
+  z-index: 11;
+}
+
+.p1p5 {
+  content: url("../img/firstPagePics/pic5.png");
+  position: absolute;
+  left: 861px;
+  top: 200px;
+  z-index: 17;
+  animation: p1p5 15s infinite linear;
+}
+
+@keyframes p1p5 {
+  from {
+    transform: rotate(-180deg) translateX(30px) rotate(-180deg);
+  }
+  to {
+    transform: rotate(-540deg) translateX(30px) rotate(-540deg);
+  }
+}
+
+.p1p6 {
+  content: url("../img/firstPagePics/pic6.png");
+  position: absolute;
+  left: 22px;
+  top: 503px;
+  z-index: 4;
+  animation: p1p6 18s infinite linear;
+}
+
+@keyframes p1p6 {
+  from {
+    transform: rotate(180deg) translateX(30px) rotate(180deg);
+  }
+  to {
+    transform: rotate(540deg) translateX(30px) rotate(540deg);
+  }
+}
+
+.p1p7 {
+  content: url("../img/firstPagePics/pic7.png");
+  position: absolute;
+  left: -134px;
+  top: 593px;
+  z-index: 3;
+}
+
+.p1p8 {
+  content: url("../img/firstPagePics/pic8.png");
+  position: absolute;
+  left: 347px;
+  top: 631px;
+  z-index: 13;
+}
+
+.p1p9 {
+  content: url("../img/firstPagePics/pic9.png");
+  position: absolute;
+  left: 542px;
+  top: 641px;
+  z-index: 12;
+  animation: p1p9 5s infinite;
+}
+
+@keyframes p1p9 {
+  0% {
+    left: 542px;
+    transform: scale(1);
+  }
+  50% {
+    left: 532px;
+    transform: scale(0.8);
+  }
+  100% {
+    left: 542px;
+    transform: scale(1);
+  }
+}

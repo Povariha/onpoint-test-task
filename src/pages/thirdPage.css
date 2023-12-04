@@ -1,0 +1,101 @@
+.third-main {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/thirdPagePics/bg.png");
+  background-size: cover;
+}
+
+.third-wrapper {
+  position: relative;
+}
+
+.top-text1 {
+  font-family: "Din Pro Regular";
+  font-size: 2.7rem;
+  color: rgb(36, 36, 36);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 398px;
+  top: 178px;
+  z-index: 60;
+  transition: 0.5s;
+}
+
+.top-text2 {
+  font-family: "Gilroy Regular";
+  font-size: 9.5rem;
+  letter-spacing: 0.11em;
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 390px;
+  top: 212px;
+  z-index: 66;
+}
+
+#bold3 {
+  font-family: "Gilroy Extra Bold";
+}
+
+.first-section {
+  font-family: "Din Pro Regular";
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  position: absolute;
+  left: 227px;
+  top: 379px;
+  width: 413px;
+  height: 265px;
+  z-index: 38;
+  padding-left: 125px;
+  padding-right: 50px;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.second-section-top {
+  font-family: "Din Pro Regular";
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5.446px 8.387px 232.5px 17.5px rgba(157, 185, 198, 0.39);
+  position: absolute;
+  left: 681px;
+  top: 379px;
+  width: 263px;
+  height: 150px;
+  z-index: 59;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 85px;
+}
+
+.more-info-butt {
+  position: absolute;
+  left: 681px;
+  top: 563px;
+}
+
+.modal-text-top {
+  position: absolute;
+  font-size: 2.7rem;
+  top: 53px;
+  left: 258px;
+}
+
+.close-btn {
+  content: url("../img/btn_close.png");
+  position: absolute;
+  top: 32px;
+  left: 720px;
+  width: 67px;
+  height: 67px;
+}

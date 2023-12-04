@@ -1,0 +1,228 @@
+.p3p1 {
+  content: url("../img/thirdPagePics/pic1.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 192px;
+  top: 65px;
+  z-index: 68;
+  animation: p3p1 4s infinite ease-in-out;
+}
+
+@keyframes p3p1 {
+  0% {
+    left: 192px;
+  }
+  50% {
+    left: 210px;
+  }
+  100% {
+    left: 192px;
+  }
+}
+
+.p3p2 {
+  content: url("../img/thirdPagePics/pic2.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 184px;
+  top: 155px;
+  z-index: 70;
+  animation: p3p2 3s infinite ease-in-out;
+}
+
+@keyframes p3p2 {
+  0% {
+    top: 155px;
+    left: 184px;
+  }
+  50% {
+    top: 145px;
+    left: 210px;
+  }
+  100% {
+    top: 155px;
+    left: 184px;
+  }
+}
+
+.p3p3 {
+  content: url("../img/thirdPagePics/pic3.png");
+  opacity: 0.878;
+  position: absolute;
+  left: 77px;
+  top: 212px;
+  z-index: 70;
+  animation: p3p3 5s infinite ease-in-out;
+}
+
+@keyframes p3p3 {
+  0% {
+    top: 212px;
+    left: 77px;
+  }
+  50% {
+    top: 222px;
+    left: 92px;
+  }
+  100% {
+    top: 212px;
+    left: 77px;
+  }
+}
+
+.p3p4 {
+  content: url("../img/thirdPagePics/pic4.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 186px;
+  top: 317px;
+  z-index: 69;
+  animation: p3p4 5s infinite ease-in-out;
+}
+
+@keyframes p3p4 {
+  0% {
+    scale: 0.8;
+    left: 186px;
+    top: 317px;
+  }
+  50% {
+    scale: 1;
+    left: 196px;
+    top: 327px;
+  }
+  100% {
+    scale: 0.8;
+    left: 186px;
+    top: 317px;
+  }
+}
+
+.p3p5 {
+  content: url("../img/thirdPagePics/pic5.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 10px;
+  top: 453px;
+  z-index: 72;
+  animation: p3p5 5s infinite ease-in-out;
+}
+
+@keyframes p3p5 {
+  0% {
+    scale: 0.6;
+    left: 10px;
+    top: 453px;
+  }
+  50% {
+    scale: 1;
+    left: 30px;
+    top: 433px;
+  }
+  100% {
+    scale: 0.6;
+    left: 10px;
+    top: 453px;
+  }
+}
+
+.p3p6 {
+  content: url("../img/thirdPagePics/pic6.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 25px;
+  top: 553px;
+  z-index: 71;
+  animation: p3p6 6s infinite ease-in-out;
+}
+
+@keyframes p3p6 {
+  0% {
+    left: 25px;
+    top: 553px;
+  }
+  50% {
+    left: 5px;
+    top: 543px;
+  }
+  100% {
+    left: 25px;
+    top: 553px;
+  }
+}
+
+.p3p7 {
+  content: url("../img/thirdPagePics/pic7.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 242px;
+  top: 591px;
+  z-index: 67;
+  animation: p3p7 5s infinite ease-in-out;
+}
+
+@keyframes p3p7 {
+  0% {
+    left: 242px;
+    top: 591px;
+  }
+  50% {
+    left: 262px;
+    top: 521px;
+  }
+  100% {
+    left: 242px;
+    top: 591px;
+  }
+}
+
+.p3p8 {
+  content: url("../img/thirdPagePics/pic8.png");
+  opacity: 0.929;
+  position: absolute;
+  left: 183px;
+  top: 703px;
+  z-index: 71;
+  animation: p3p8 4s infinite ease-in-out;
+}
+
+@keyframes p3p8 {
+  0% {
+    scale: 0.75;
+    left: 183px;
+    top: 703px;
+  }
+  50% {
+    scale: 1;
+    left: 193px;
+    top: 693px;
+  }
+  100% {
+    scale: 0.75;
+    left: 183px;
+    top: 703px;
+  }
+}
+.p3p9 {
+  content: url("../img/thirdPagePics/bottle.png");
+  position: absolute;
+  left: 49px;
+  top: 80px;
+  z-index: 69;
+}
+
+.iconL {
+  content: url("../img/thirdPagePics/iconL.png");
+  position: absolute;
+  left: 354px;
+  top: 349px;
+  z-index: 60;
+}
+
+.iconR {
+  content: url("../img/thirdPagePics/iconR.png");
+  position: absolute;
+  left: 721px;
+  top: 355px;
+  z-index: 60;
+}

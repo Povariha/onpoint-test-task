@@ -1,0 +1,69 @@
+.first-main {
+  background-image: url("../img/firstPagePics/bg.png");
+  width: 1024px;
+  height: 768px;
+  background-size: cover;
+}
+
+.intro-container {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-page-container {
+  position: absolute;
+  margin-left: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  z-index: 5;
+}
+
+.first-page-container :first-child {
+  font-size: 2.7rem;
+  text-align: left;
+  margin-bottom: 20px;
+  z-index: 5;
+}
+
+.hi {
+  font-family: "DIN Pro Regular";
+}
+
+.first-page-container :last-child {
+  font-size: 10.9rem;
+  text-align: left;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+#not-bold {
+  font-family: "Gilroy light";
+}
+
+#bold {
+  font-family: "Gilroy Extra Bold";
+}
+
+.first-page-container :last-child :first-child {
+  font-size: 10.9rem;
+}
+
+.first-page-button {
+  border-radius: 80px;
+  height: 80px;
+  width: 287px;
+  background-color: #ff6a9f;
+}
+
+.first-page-button :first-child {
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 100%;
+}

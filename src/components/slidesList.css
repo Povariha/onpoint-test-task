@@ -1,0 +1,6 @@
+.slide-list {
+  display: flex;
+  height: 768px;
+  transition: transform 0.5s ease-in-out;
+  width: 1024px;
+}
