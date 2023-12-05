@@ -5,7 +5,6 @@ import { SliderContext } from "../App";
 const PageTwoPics = () => {
 
   const { slideNumber } = useContext(SliderContext)
-  console.log(slideNumber)
   return (
     <div style={{ position: "relative" }}>
       <img className={slideNumber === 1 ? "p2p1 anim" : "p2p1"} />
