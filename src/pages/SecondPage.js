@@ -10,12 +10,9 @@ const SecondPage = () => {
       <div className="second-page-block">
         <p id="smallText">
           ТЕКСТ <br />
-          СООБЩЕНЕИЯ
+          СООБЩЕНИЯ
         </p>
         <div className="second-page-text-block">
-          <div className="text-scroll">
-            <img src={btn} alt="btn" id="btn1" /> <div />
-          </div>
           <div className="text-wrapper">
             <div className="second-page-text">
               <div className="text1">
